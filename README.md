@@ -1,13 +1,13 @@
-                                                                      <H1>Group 10 - Project Proposal:</H1>
-                                                                             <H2>Event Finder</H2>
+# Group 10 - Project Proposal:
+# Event Finder
 
-                                                                            ## USER STORY:
+## USER STORY:
 GIVEN: I am a natural Floridian and want to put my city in a search bar and find an event near me.
 THEN: I can go on my app and find an event in the area.
 GIVEN: I can use the app to find a wide variety events.
 THEN: I am presented with varieties of events.
 
-                                                                            ## ACCEPTANCE CRITERIA:
+## ACCEPTANCE CRITERIA:
 IT'S DONE WHEN:
 -I can choose from events in my area.
 
