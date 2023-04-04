@@ -1,18 +1,25 @@
+<<<<<<< HEAD
+var requestUrl = "https://api.seatgeek.com/2/events?client_id=" + ApiKey;
+var ApiKey = "MzI3NDA1MDJ8MTY4MDIxOTA5Ni41MTQxMzg3";
+=======
 //var requestUrl = 'https://api.seatgeek.com/2/events?client_id=&appid=MzI3NDA1MDJ8MTY4MDIxOTA5Ni41MTQxMzg3';
 // var requestUrl = 'https://api.seatgeek.com/2/events?client_id=' + ApiKey;
 var ApiKey = "MzI3NDA1MDJ8MTY4MDIxOTA5Ni41MTQxMzg3"
 var requestUrl = 'https://api.seatgeek.com/2/events?venue.state=FL' + ApiKey;
 var search =  document.getElementById('searchBtn')
+>>>>>>> bcb2683b00e5f3812c7b87d8a3dfa137648dc1e8
 
 function fetch(searchInput) {
 fetch(requestUrl)
   .then(function (response) {
-
     return response.json();
   })
   .then(function (data) {
-    console.log('Fetch Response \n-------------');
+    console.log("Fetch Response \n-------------");
     console.log(data);
+<<<<<<< HEAD
+  });
+=======
 });
 }
 
@@ -22,3 +29,4 @@ fetch(requestUrl)
   }
   //document.getElementById('searchBtn').
   search.addEventListener('click', getSeatgeek);
+>>>>>>> bcb2683b00e5f3812c7b87d8a3dfa137648dc1e8
