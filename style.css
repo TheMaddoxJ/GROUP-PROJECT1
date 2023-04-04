@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   align-items: center;
 
   text-align: center;
@@ -32,3 +33,22 @@ p {
 .btn {
   font-size: large;
 }
+=======
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 4px solid black;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+>>>>>>> bcb2683b00e5f3812c7b87d8a3dfa137648dc1e8
