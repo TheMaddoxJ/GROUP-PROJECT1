@@ -6,31 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Event Finder</title>
+    <title>Cats VS Dogs</title>
 </head>
 <body>
-    <h1>Event Finder</h1>
-    <p>Use the search bars to find current events in the U.S.</p>
-    <p>Try typing something like: "Concert" or "Event"</p>
+    <h1>Cats VS Dogs</h1>
+    <h2>This page offers buttons to display photos of cats and dogs!<br>It's up to you to decide who wins the battle of cuteness.
+    </h2>
 
-    <div id="card" class="z-depth-4">
-    <h2>Eventbrite:</h2>
-    <p>Search below for current events around the U.S.</p>
-    <input class="search-bar" placeholder = "Type Here"></input>
-    <button class="btn-floating pulse"><i class="material-icons">search</i>
-    </button>
+<div class="dogbox" id="dogbox">
+    <h2>DOGS:</h2>
 </div>
-<div id="card" class="z-depth-4">
-    <h2>Seat Geek:</h2>
-    <p>Search below for current events around the U.S.
-    </p>
-    <input class="search-bar" id="searchBtn" placeholder = "Type Here"></input>
-    <button id = "searchBtn">Search</button>
 
-    <video autoplay muted loop id="background-video">
-        <source src="./looping hexagon bg.mp4" type="video/mp4">
-      </video> 
-    
+<card class="catbox" id="catbox">
+    <h2>CATS:</h2>
 </card>
 
 <script src="./script.js"></script>
