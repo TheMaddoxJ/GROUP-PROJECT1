@@ -4,38 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Event Finder</title>
 </head>
-
 <body>
     <h1>Event Finder</h1>
     <p>Use the search bars to find current events in the U.S.</p>
     <p>Try typing something like: "Concert" or "Event"</p>
 
-<card class="eventbrite card">
+    <div id="card" class="z-depth-4">
     <h2>Eventbrite:</h2>
-    <p>Search below for current events around the U.S.
-    </p>
+    <p>Search below for current events around the U.S.</p>
     <input class="search-bar" placeholder = "Type Here"></input>
-    <button class = "search-btn">Search</button>
-</card>
-
-<card class="seatgeek-card">
+    <button class="btn-floating pulse"><i class="material-icons">search</i>
+    </button>
+</div>
+<div id="card" class="z-depth-4">
     <h2>Seat Geek:</h2>
     <p>Search below for current events around the U.S.
     </p>
     <input class="search-bar" placeholder = "Type Here"></input>
-    <button id = "searchBtn">Search</button>
-
-
-    <video autoplay muted loop id="myVideo">
-        <source src="./looping hexagon bg.mp4" type="video/mp4">
-      </video> 
-    
-
-</card>
-
+    <button class="btn-floating pulse"><i class="material-icons">search</i>
+    </button>
+</div>
 <script src="./script.js"></script>
 </body>
 </html>
