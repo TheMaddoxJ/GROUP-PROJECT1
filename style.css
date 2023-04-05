@@ -1,7 +1,7 @@
 body {
   align-items: center;
   text-align: center;
-  background-color: grey;
+  background-color: white;
   margin: 4rem;
 }
 
@@ -31,6 +31,7 @@ p {
 .search-bar {
   font-size: x-large;
   text-align: center;
+  
 }
 
 .btn {
@@ -53,19 +54,8 @@ p {
   z-index: -1;
 }
 
-.navbar {
-  display:flex;
-  position:sticky;
+
+.brand-logo {
+  left: 800px;
 }
 
-.navbar ul li a{
-  text-decoration: none;
-  color: white;
-  padding: 5px 15px;
-  transition: all 1 ease;    
-}
-.navbar ul li a:hover{
-  background-color: white;
-  color: black;
-  box-shadow: 0 0 40px;
-}
