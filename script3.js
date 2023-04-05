@@ -13,6 +13,8 @@ function getDog() {
       var image = document.createElement("img");
       image.src = dogData.url;
       dogBox.appendChild(image);
+      localStorage.setItem("image", image.src);
+      localStorage.getItem("image", image.src);
     })
     .catch(function (error) {
       console.log(error);
