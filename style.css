@@ -21,10 +21,11 @@ p {
     padding-bottom: 1rem;
 }
 
-#img {
-  max-width: 30%;
-  max-height: 30%;
-}
+ /* #dogBox img {
+max-width: 80%;
+height: auto;
+margin: 10%;
+} */
 
 .search-bar {
   font-size: x-large;
@@ -56,4 +57,3 @@ p {
 .brand-logo {
   left: 800px;
 }
-

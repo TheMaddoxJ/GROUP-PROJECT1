@@ -1,5 +1,5 @@
-var button = document.getElementById("catBtn");
-var catBox = document.getElementById("display2");
+var button = document.getElementById("cat-btn");
+var catBox = document.getElementById("container2");
 var baseURL = "https://cataas.com/cat/";
 
 function getCat() {
