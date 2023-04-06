@@ -21,11 +21,11 @@ p {
     padding-bottom: 1rem;
 }
 
- /* #dogBox img {
+ .card img {
 max-width: 80%;
 height: auto;
 margin: 10%;
-} */
+} 
 
 .search-bar {
   font-size: x-large;
