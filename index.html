@@ -6,52 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
     <title>Cats VS Dogs</title>
 </head>
 <body>
-    <header>
     <nav>
-        <ul>
-            <li><a href="#dogbox"> DOGS </a></li>
-        </ul>
-    </nav>
-    </header>
-    <h1>Cats VS Dogs</h1>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Cats VS Dogs</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="">Home</a></li>
+            <li><a href="">Dogs</a></li>
+            <li><a href="">Cats</a></li>
+          </ul>
+        </div>
+      </nav>
+    
     <h2>This page offers buttons to display photos of cats and dogs!<br>It's up to you to decide who wins the battle of cuteness.
     </h2>
-
+<container>
+  
+  
     <div id="container" class="z-depth-4">
-      <div id="img"></div>
       <h2>Dog Pictures</h2>
-      <ul class="pagination" id="pagination">
-        <li class="disabled"><a href="#!"><i class="material-icons"></i></a></li>
-        <li id="pag1" class = "active"><a href="#!">1</a></li>
-        <li id="pag2" class="active waves-effect"><a href="#!">2</a></li>
-        <li id="pag3" class="active waves-effect"><a href="#!">3</a></li>
-        <li id="pag4" class="active waves-effect"><a href="#!">4</a></li>
-        <li id="pag5" class="active waves-effect"><a href="#!">5</a></li>
-        <li class="active waves-effect"><a href="#!"><i class="material-icons"></i></a></li>
-      </ul>
+      <p>Search below for Random Dog Pictures</p>
+      <div id="dogBox"></div>
+      <button class="btn-floating pulse" id="dog-btn">
+        <i class="material-icons">search</i>
+      </button>
     </div>
-    <div id="container" class="z-depth-4">
+
+
+    <div id="container2" class="z-depth-4">
       <h2>Cat Pictures</h2>
-      <ul class="pagination-cats" id="pagination-cats">
-        <li class="disabled"><a href="#!"><i class="material-icons"></i></a></li>
-        <li id="pag1-cats" class = "active"><a href="#!">1</a></li>
-        <li id="pag2-cats" class="active waves-effect"><a href="#!">2</a></li>
-        <li id="pag3-cats" class="active waves-effect"><a href="#!">3</a></li>
-        <li id="pag4-cats" class="active waves-effect"><a href="#!">4</a></li>
-        <li id="pag5-cats" class="active waves-effect"><a href="#!">5</a></li>
-        <li class="active waves-effect"><a href="#!"><i class="material-icons"></i></a></li>
-      </ul>
+      <p>Search below for Random Cat Pictures</p>
+      <div id="catBox"></div>
+      <button class="btn-floating pulse" id="cat-btn">
+        <i class="material-icons">search</i>
+      </button>
     </div>
-
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="./script3.js"></script>
+  </container>
+    <script src="./cat.js"></script>
+    <script src="./dog.js"></script>
   </body>
 </html>
