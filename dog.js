@@ -14,6 +14,9 @@ fetch('https://api.thedogapi.com/v1/images/search?api_key=live_sjFbesElsFGatTKcD
    var image = document.createElement('img');
    image.src = dogData.url;
    dogBox.appendChild(image);
+  //  added local storage
+   localStorage.setItem("dog image", dogData.url)
+   localStorage.getItem("dog image", dogData.url)
     }
 ) 
 .catch(function(error) {
