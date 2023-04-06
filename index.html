@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Cats VS Dogs</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <div class="nav-wrapper">
-          <a href="#" class="brand-logo">Cats VS Dogs</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="">Home</a></li>
-            <li><a href="">Dogs</a></li>
-            <li><a href="">Cats</a></li>
-          </ul>
-        </div>
-      </nav>
-    
-    <h2>This page offers buttons to display photos of cats and dogs!<br>It's up to you to decide who wins the battle of cuteness.
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Cats VS Dogs</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#dogBox">Dogs</a></li>
+          <li><a href="#catBox">Cats</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <h2>
+      This page offers buttons to display photos of cats and dogs!<br />It's up
+      to you to decide who wins the battle of cuteness.
     </h2>
-<container>
-  
-  
-    <div id="container" class="z-depth-4">
-      <h2>Dog Pictures</h2>
-      <p>Search below for Random Dog Pictures</p>
-      <div id="dogBox"></div>
-      <button class="btn-floating pulse" id="dog-btn">
-        <i class="material-icons">search</i>
-      </button>
-    </div>
+    <container>
+      <div id="container" class="z-depth-4">
+        <h2>Dog Pictures</h2>
+        <p>Search below for Random Dog Pictures</p>
+        <div id="dogBox"></div>
+        <button class="btn-floating btn-large pulse" id="dog-btn">
+          <i class="search-icons"></i>
+        </button>
+      </div>
 
-
-    <div id="container2" class="z-depth-4">
-      <h2>Cat Pictures</h2>
-      <p>Search below for Random Cat Pictures</p>
-      <div id="catBox"></div>
-      <button class="btn-floating pulse" id="cat-btn">
-        <i class="material-icons">search</i>
-      </button>
-    </div>
-  </container>
+      <div id="container2" class="z-depth-4">
+        <h2>Cat Pictures</h2>
+        <p>Search below for Random Cat Pictures</p>
+        <div id="catBox"></div>
+        <button class="btn-floating btn-large pulse" id="cat-btn">
+          <i class="search-icons"></i>
+        </button>
+      </div>
+    </container>
     <script src="./cat.js"></script>
     <script src="./dog.js"></script>
   </body>

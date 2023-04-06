@@ -21,6 +21,9 @@ function getCat() {
       //use the URL of the image bank instead of the api to find the image
       image.src = baseURL + catData[i]._id;
       catBox.appendChild(image);
+      // added local storage
+      localStorage.setItem("cats", baseURL)
+      localStorage.getItem("cats", baseURL)
     })
     .catch(function (error) {
       console.log(error);
