@@ -1,5 +1,5 @@
-var dogBox = document.getElementById("display1");
-var button = document.getElementById("dogBtn");
+var dogBox = document.getElementById("container");
+var button = document.getElementById("dog-btn");
 
  function getDog(){
 fetch('https://api.thedogapi.com/v1/images/search?api_key=live_sjFbesElsFGatTKcDjDAY6CEI93sVnZQl3C3wjNKn3RqX318fHNomIa1wzaJj8PW')
