@@ -13,12 +13,14 @@ p {
   background-color: rgb(174, 180, 180);
   margin: 2rem;
   padding-bottom: 1rem;
+  border-radius: 15px;
 }
 
 #container2 {
     background-color: rgb(174, 180, 180);
     margin: 2rem;
     padding-bottom: 1rem;
+    border-radius: 15px;
 }
 
  .card img {

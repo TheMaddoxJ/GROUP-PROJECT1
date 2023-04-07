@@ -25,3 +25,4 @@ fetch('https://api.thedogapi.com/v1/images/search?api_key=live_sjFbesElsFGatTKcD
  }
 
  button.addEventListener("click", getDog);
+
