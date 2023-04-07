@@ -26,3 +26,9 @@ fetch('https://api.thedogapi.com/v1/images/search?api_key=live_sjFbesElsFGatTKcD
 
  button.addEventListener("click", getDog);
 
+ document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.modal');
+  var instances = M.Modal.init(elems);
+  // document.textContent = instances
+  
+});
