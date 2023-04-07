@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
   <title>Cats VS Dogs</title>
 </head>
 
@@ -16,24 +17,78 @@
     <div class="nav-wrapper red lighten-1">
       <a href="#" class="brand-logo">Cats VS Dogs</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
+       
         <li><a href="">Home</a></li>
         <li><a href="">Dogs</a></li>
         <li><a href="">Cats</a></li>
+
       </ul>
     </div>
   </nav>
+  <!-- <button data-target="vote" class="btn modal-trigger red lighten-1">Vote Here</button> -->
+  <!-- <a class="waves-effect waves-light btn modal-trigger red lighten-1" href="#modal1">Vote Here</a>
 
-  <h2>This page offers buttons to display photos of cats and dogs!
-  </h2>
-  <h5>It's up to you to decide who wins the battle of cuteness.</h5>
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>modal-content</h4>
+      <form action="#">
+        <p>
+          <label>
+            <input name="dog counter" type="radio" checked />
+            <span>Dogs</span>
+          </label>
+          </p>
+          <p>
+              <label>
+                <input name="cat counter" type="radio" checked />
+                <span>Cats</span>
+              </label>
+          </p>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div> -->
+  <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+
+
+  <div id="modal1" class="modal">
+
+    <div class="modal-content">
+      <h4>Make your choice!</h4>
+      <form action="#">
+        <p>
+          <label>
+            <input name="counter" type="radio"  />
+            <span>Dogs</span>
+          </label>
+          </p>
+          <p>
+              <label>
+                <input name="counter" type="radio"  />
+                <span>Cats</span>
+              </label>
+          </p>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Vote Here</a>
+
+ 
+  
+  <h3>It's up to you to decide who wins the battle of cuteness!</h3>
 
     <div class="row">
       <div class="card">
         <div class="col s6">
           <div class="card-content">
             <div id="container" class="z-depth-4">
-              <h2>Dog Pictures</h2>
-              <p>Search below for dog photos</p>
+              <h2>Dogs</h2>
+              
               <div id="dogBox"></div>
               <button class="btn-floating btn-large pulse red lighten-1" id="dog-btn">
                 <i class="large material-icons">search</i>
@@ -47,8 +102,8 @@
             <div class="col s6">
               <div class="card-content">
                 <div id="container2" class="z-depth-4">
-                  <h2>Cat Pictures</h2>
-                  <p>Search below for cat photos</p>
+                  <h2>Cats</h2>
+              
                   <div id="catBox"></div>
                   <button class="btn-floating btn-large pulse red lighten-1" id="cat-btn">
                     <i class="large material-icons">search</i>
@@ -60,33 +115,9 @@
         </div>
 
 
-    <!-- <div class="container">
-    <div class="row">
-      <div class="col s6">
-
-        <div id="container" class="z-depth-4">
-          <h2>Dog Pictures</h2>
-          <p>Search below for Random Dog Pictures</p>
-          <div id="dogBox"></div>
-          <button class="btn-floating btn-large pulse red lighten-1" id="dog-btn">
-            <i class="large material-icons">search</i>
-          </button>
-        </div>
-
-
-        <div id="container2" class="z-depth-4">
-          <h2>Cat Pictures</h2>
-          <p>Search Below for Random Cat Pictures</p>
-          <div id="catBox"></div>
-          <button class="btn-floating btn-large pulse red lighten-1" id="cat-btn">
-            <i class="large material-icons">search</i>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    </container> -->
-
+    
+<!-- cat -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./cat.js"></script>
     <script src="./dog.js"></script>
 </body>
