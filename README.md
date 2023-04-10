@@ -6,7 +6,6 @@ GIVEN: I am a stressed college student <br>
 THEN: I can go on my app to click between dog or cat images. <br>
 GIVEN: I would like to vote whether I prefer dogs or cats. <br>
 THEN: I am presented with a pop up to vote between both.<br>
-THEN: After I have voted I can see the result of all my votes.<br>
 
 ## ACCEPTANCE CRITERIA:
 IT'S DONE WHEN:<br>
