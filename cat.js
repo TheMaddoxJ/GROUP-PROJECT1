@@ -1,5 +1,5 @@
 var button = document.getElementById("cat-btn");
-var catBox = document.getElementById("container2");
+var catBox = document.getElementById("catBox");
 var baseURL = "https://cataas.com/cat/";
 
 function getCat() {
@@ -11,10 +11,11 @@ function getCat() {
     .then((data) => {
       console.log(data)
       var catData = data;
+      //replace old picture with new picture
       if (catBox.hasChildNodes()) {
         catBox.removeChild(catBox.lastChild);
       }
-      
+      //make an img element to hold the cat image
       var image = document.createElement("img");
       //set index of the cat in the json to a random number every time the function is called
       i = Math.floor(Math.random() * catData.length)
