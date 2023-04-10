@@ -1,4 +1,4 @@
-var dogBox = document.getElementById("container");
+var dogBox = document.getElementById("dogBox");
 var button = document.getElementById("dog-btn");
 
  function getDog(){
