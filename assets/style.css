@@ -1,54 +1,15 @@
-body {
-  align-items: center;
-  text-align: center;
-  background-color: white;
-  margin: 4rem;
-}
 
-p {
-  font-size: 1.5rem;
-}
-
-#container {
-  background-color: rgb(174, 180, 180);
-  margin: 2rem;
-  padding-bottom: 1rem;
-  border-radius: 15px;
-}
-
-#container2 {
-    background-color: rgb(174, 180, 180);
-    margin: 2rem;
-    padding-bottom: 1rem;
-    border-radius: 15px;
-}
-
- .card img {
+.card img {
 max-width: 80%;
 height: auto;
 margin: 10%;
 } 
-
-.search-bar {
-  font-size: x-large;
-  text-align: center;
-  
+.card {
+  margin: 5%;
+  border-radius: 15px;
 }
 
-.btn {
-  font-size: large;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-
-}
-
-button{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.brand-logo {
-  left: 800px;
+.row {
+  margin-left: 10%;
+  margin-right: 10%;
 }
