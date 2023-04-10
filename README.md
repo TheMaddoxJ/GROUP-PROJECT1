@@ -18,5 +18,12 @@ IT'S DONE WHEN:
 
 -The app will use modals to display a voting form with radio buttons.
 
+## Deployment
+
+Repo - https://github.com/TheMaddoxJ/GROUP-PROJECT1
+
+Website - https://themaddoxj.github.io/GROUP-PROJECT1/
+
+screenshot - <img width="1360" alt="Screenshot 2023-04-09 at 7 54 29 PM" src="https://user-images.githubusercontent.com/124836497/230805408-69c8c2ae-0f51-462c-a730-1629291e8b7e.png">
 
 
