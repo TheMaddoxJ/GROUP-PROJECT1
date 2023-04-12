@@ -7,7 +7,6 @@ THEN: I can go on my app to click between dog or cat images. <br>
 GIVEN: I would like to vote whether I prefer dogs or cats. <br>
 THEN: I am presented with a pop up to vote between both.<br>
 
-
 ## ACCEPTANCE CRITERIA:
 IT'S DONE WHEN:<br>
 -I can display random dog or cat images.
